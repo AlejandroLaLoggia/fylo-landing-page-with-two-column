@@ -1,0 +1,25 @@
+:root {
+
+    /*-----COLORS-----*/
+    /*Primary*/
+
+    --clr_p_very_dark_blue: hsl(243, 87%, 12%);
+    --clr_p_desaturated_blue: hsl(238, 22%, 44%);
+
+    /*Accent*/
+
+    --clr_a_bright_blue: hsl(224, 93%, 58%);
+    --clr_a_moderate_cyan: hsl(170, 45%, 43%);
+
+    /*Neutral*/
+
+    --clr_n_light_grayish_blue: hsl(240, 75%, 98%);
+    --clr_n_light_gray: hsl(0, 0%, 75%);
+
+    /*-----FONTS-----*/
+    --ff_open:'Open Sans', sans-serif;
+    --ff_rale: 'Raleway', sans-serif;
+    --fw_regular:400;
+    --fw_bold:700;
+
+}

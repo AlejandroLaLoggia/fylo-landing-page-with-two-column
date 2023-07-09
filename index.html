@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/card.css">
+  <link rel="stylesheet" href="./css/footer.css">
+
+  <script src="https://kit.fontawesome.com/f7ad25f994.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+</head>
+
+<body>
+  <header class="header">
+
+    <nav class="header_nav">
+      <img src="./images/logo.svg" alt="Fylo logo image" class="nav_logo">
+      <ul class="nav_list">
+        <li class="nav_item">
+          <a href="#" class="nav_link">
+            Features
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#" class="nav_link">
+            Team
+          </a>
+        </li>
+        <li class="nav_item">
+          <a href="#" class="nav_link">
+            Sign In
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main_container">
+
+    <section class="main_section section_1">
+      <img src="./images/illustration-1.svg" alt="image of people taking papers out of a file" class="section_1_img">
+      <article class="section_1_article">
+        <h1 class="title_section_1">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p class="p_section_1">
+          Fylo stores your most important files in one secure location.
+          Access them wherever you need, share and collaborate with friends,
+          family, and co-workers.
+        </p>
+        <form class="section_1_input" method="post" action="#">
+          <input type="email" class="email_section_1 email_box" placeholder="Enter your email..." pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required="required">
+          <button class="section_1_cta btn" href="#">
+            Get Started
+          </button>
+        </form>
+      </article>
+
+    </section>
+
+    <picture>
+      <source srcset="./images/bg-curve-desktop.svg" media="(min-width:700px)">
+      <img src="./images/bg-curve-mobile.svg" alt="curve" class="bck_curve">
+    </picture>
+    
+    <section class="main_section section_2">
+    
+        <div class="img_container">
+          <img src="./images/illustration-2.svg" alt="image of people looking at a blackboard" class="section_2_img">
+        </div>
+
+        <div class="content_container">
+
+          <h2 class="title_section_2">
+            Stay productive, wherever you are
+          </h2>
+
+          <p class="p_section_2">
+            Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.
+          </p>
+          <p class="p_section_2">
+            Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!
+          </p>
+
+          <div class="link_section_2_container">
+            <a href="#" class="section_2_link">
+              See how Fylo works
+            </a>
+          </div>
+
+          <div class="card_container">
+            <p class="card_testimonial">
+              Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.
+            </p>
+            <div class="card_footer">
+              <img src="./images/avatar-testimonial.jpg" alt="Kyle Burton image profile" class="img_profile">
+              <h3 class="name_card">
+                Kyle Burton
+                <span class="sub_name">
+                  Founder & CEO, Huddle
+                </span>
+              </h3>
+            </div>
+          </div>
+
+        </div>
+    </section>
+
+    <section class="main_section section_3">
+      <article class="section_3_article">
+        <h2 class="title_section_3">
+          Get early access today
+        </h2>
+        <p class="p_section_3">
+          It only takes a minute to sign up and our free starter tier is extremely generous.
+          If you have any questions, our support team would be happy to help you.
+        </p>
+      </article>
+      <form class="section_3_input" method="post" action="#">
+        <input type="email" class="email_section_3 email_box" required="required" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" placeholder="email@example.com">
+        <button class="section_3_cta btn" href="#">
+          Get Started For Free
+        </button>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="footer_section">
+
+    <img src="./images/logo.svg" alt="" class="logo_footer">
+    
+    <div class="footer_container">
+
+      <ul class="contact_footer">
+        <li class="phone_contact link_item">
+          Phone: +1-543-123-4567
+        </li>
+        <li class="email_contact link_item">
+          example@fylo.com
+        </li>
+      </ul>
+
+      <ul class="footer_links">
+        <li class="link_item">
+          <a href="#" class="link_item_a">About Us</a>
+        </li>
+        <li class="link_item">
+          <a href="#" class="link_item_a">Jobs</a>
+        </li>
+        <li class="link_item">
+          <a href="#" class="link_item_a">Press</a>
+        </li>
+        <li class="link_item">
+          <a href="#" class="link_item_a">Blog</a>
+        </li>
+      </ul>
+
+      <ul class="footer_links">
+        <li class="link_item">
+          <a href="#" class="link_item_a">Contact Us</a>
+        </li>
+        <li class="link_item">
+          <a href="#" class="link_item_a">Terms</a>
+        </li>
+        <li class="link_item">
+          <a href="#" class="link_item_a">Privacy</a>
+        </li>
+      </ul>
+
+      <ul class="footer_social">
+        <li class="link_item">
+          <a class="social_links" href="#" aria-label="link to facebook profile">
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;">
+              <span class="social_span">facebook link</span>
+            </i>
+          </a>
+        </li>
+        <li class="link_item">
+          <a class="social_links" href="#" aria-label="link to twitter profile">
+            <i class="fa-brands fa-twitter" style="color: #ffffff;">
+              <span class="social_span">twitter link</span>
+            </i>
+          </a>
+        </li>
+        <li class="link_item">
+          <a class="social_links" href="#" aria-label="link to instagram profile">
+            <i class="fa-brands fa-instagram" style="color: #ffffff;">
+              <span class="social_span">instagram link</span>
+            </i>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="attribution_container">
+      <p class="attribution">
+        Challenge by <a title="frontendmentor link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a title="frontendmentor profile" href="https://www.frontendmentor.io/profile/AlejandroLaLoggia">Alejandro La Loggia</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>

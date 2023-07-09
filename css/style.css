@@ -1,0 +1,7 @@
+@import url("variables.css");
+
+body{ 
+    font-family: var(--ff_open);
+    font-weight:var(--fw_regular);
+}
+
